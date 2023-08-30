@@ -5,4 +5,4 @@ openai
 duckduckgo-search
 pandas
 tabulate
-dotenv
+python-dotenv
