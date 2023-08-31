@@ -27,14 +27,14 @@ import os
 
 # Loop through the files and read them into Pandas data frames
 #for file_name in file_list:
-file_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/GOTOES_FIT-CSV_Github.csv"
+file_path = "https://github.com/rdboulos/ICEHackathon/blob/main/GOTOES_FIT-CSV_Github.csv"
 #if os.path.isfile(file_path):
 
         #df = pd.read_csv(file_path)  # You can adjust this based on the file format
         #df = pd.read_csv(file_path)
 
 #df = pd.read_csv(https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/GOTOES_FIT-CSV_Github.csv)
-        github_csv_url ="https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/GOTOES_FIT-CSV_Github.csv"
+        github_csv_url ="https://github.com/rdboulos/ICEHackathon/blob/main/GOTOES_FIT-CSV_Github.csv"
         df = pd.read_csv(github_csv_url)
         data_frames.append(df)
 
