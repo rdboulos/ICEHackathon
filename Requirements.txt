@@ -9,4 +9,4 @@ tabulate
 python-dotenv==1.0.0
 dotenv-python
 dotenv
-pandasai==0.8.4
+
