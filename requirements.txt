@@ -5,4 +5,5 @@ duckduckgo-search
 pandas
 pandasai
 tabulate
+bs4
 
