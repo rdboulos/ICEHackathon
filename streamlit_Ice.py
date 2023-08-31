@@ -17,13 +17,12 @@ from pandasai import SmartDataframe
 
 # Define the path to the folder containing the files
 #folder_path = "C:/Users/Rebecca/Documents/LLMs/PandasOpenAIV2/Data"
-folder_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon"
+#folder_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon"
 
 # Get a list of all files in the folder
-file_list = os.listdir(folder_path)
+#file_list = os.listdir(folder_path)
 
-# Initialize an empty list to hold data frames
-data_frames = []
+
 
 # Loop through the files and read them into Pandas data frames
 #for file_name in file_list:
@@ -37,6 +36,9 @@ file_path = "https://github.com/rdboulos/ICEHackathon/blob/main/GOTOES_FIT-CSV_G
 github_csv_url ="https://github.com/rdboulos/ICEHackathon/blob/main/GOTOES_FIT-CSV_Github.csv"
 df = pd.read_csv(github_csv_url, sep='delimiter')
 data_frames.append(df)
+
+# Initialize an empty list to hold data frames
+data_frames = []
 
 # Concatenate all data frames into a single data frame
 combined_df = pd.concat(data_frames, ignore_index=True)
