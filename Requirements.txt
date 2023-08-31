@@ -4,6 +4,7 @@ langchain==0.0.268
 openai
 duckduckgo-search
 pandas
+pandasai
 tabulate
 python-dotenv==1.0.0
 dotenv-python
