@@ -28,7 +28,7 @@ data_frames = []
 # Loop through the files and read them into Pandas data frames
 #for file_name in file_list:
 file_path = os.path.join(folder_path, file_name)
-    if os.path.isfile(file_path):
+if os.path.isfile(file_path):
 
         #df = pd.read_csv(file_path)  # You can adjust this based on the file format
         #df = pd.read_csv(file_path)
