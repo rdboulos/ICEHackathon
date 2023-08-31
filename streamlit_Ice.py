@@ -1,5 +1,12 @@
 import streamlit as st
+import dotenv
 from dotenv import load_dotenv
+
+
+#import environ
+#env = environ.Env()
+#environ.Env.read_env()
+
 
 load_dotenv()
 
