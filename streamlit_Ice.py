@@ -35,14 +35,9 @@ data_frames = []
 
 #df = pd.read_csv(https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/GOTOES_FIT-CSV_Github.csv)
 
-   
-
-
 github_csv_url = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/GOTOES_FIT-CSV_Github.csv"
-
 df = pd.read_csv(github_csv_url)
-
-     data_frames.append(df)
+data_frames.append(df)
 
 # Concatenate all data frames into a single data frame
 combined_df = pd.concat(data_frames, ignore_index=True)
