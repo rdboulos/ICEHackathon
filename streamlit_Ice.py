@@ -1,14 +1,13 @@
 import streamlit as st
-import dotenv
-from dotenv import load_dotenv
+#import dotenv
+#from dotenv import load_dotenv
 
 
-#import environ
-#env = environ.Env()
-#environ.Env.read_env()
+##import environ
+##env = environ.Env()
+##environ.Env.read_env()
 
-
-load_dotenv()
+#load_dotenv()
 
 import pandas as pd
 from pandasai import PandasAI
