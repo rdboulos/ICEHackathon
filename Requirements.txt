@@ -6,3 +6,4 @@ duckduckgo-search
 pandas
 tabulate
 python-dotenv
+dotenv
