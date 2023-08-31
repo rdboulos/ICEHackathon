@@ -7,3 +7,4 @@ pandas
 tabulate
 python-dotenv==1.0.0
 dotenv
+pandasai==0.8.4
