@@ -13,17 +13,17 @@ import pandas as pd
 from pandasai import PandasAI
 
 import os
-#from pandasai import SmartDataframe
+from pandasai import SmartDataframe
 
 # Define the path to the folder containing the files
 #folder_path = "C:/Users/Rebecca/Documents/LLMs/PandasOpenAIV2/Data"
-#folder_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon"
+folder_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon"
 
 # Get a list of all files in the folder
-#file_list = os.listdir(folder_path)
+file_list = os.listdir(folder_path)
 
 # Initialize an empty list to hold data frames
-#data_frames = []
+data_frames = []
 
 # Loop through the files and read them into Pandas data frames
 #for file_name in file_list:
