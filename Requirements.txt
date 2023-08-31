@@ -5,5 +5,5 @@ openai
 duckduckgo-search
 pandas
 tabulate
-python-doten==1.0.0
+python-dotenv==1.0.0
 dotenv
