@@ -17,7 +17,7 @@ import os
 
 # Define the path to the folder containing the files
 #folder_path = "C:/Users/Rebecca/Documents/LLMs/PandasOpenAIV2/Data"
-folder_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon"
+folder_path = "https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/"
 
 # Get a list of all files in the folder
 file_list = os.listdir(folder_path)
