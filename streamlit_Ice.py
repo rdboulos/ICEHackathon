@@ -35,7 +35,7 @@ file_path = "https://github.com/rdboulos/ICEHackathon/blob/main/GOTOES_FIT-CSV_G
 
 #df = pd.read_csv(https://raw.githubusercontent.com/rdboulos/repository/main/icehackathon/GOTOES_FIT-CSV_Github.csv)
 github_csv_url ="https://github.com/rdboulos/ICEHackathon/blob/main/GOTOES_FIT-CSV_Github.csv"
-df = pd.read_csv(github_csv_url)
+df = pd.read_csv(github_csv_url, sep='delimiter')
 data_frames.append(df)
 
 # Concatenate all data frames into a single data frame
